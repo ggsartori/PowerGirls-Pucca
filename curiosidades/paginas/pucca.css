@@ -1,0 +1,74 @@
+body{
+    background: #ff8363;
+    background: linear-gradient(0deg,rgba(255, 131, 99, 1) 0%, rgba(252, 217, 217, 1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+#pucca1{
+    width: 120px;
+}
+
+#title img{
+   width: 220px; 
+}
+
+#title{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+.botao {
+
+    width: 300px;
+    height: 30px;
+    background-color: aliceblue;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    transition: 300ms ease-in-out;  
+}
+.botao:hover{
+    border-color: #42424d;
+}
+
+hr{
+    color: rgb(255, 255, 255);
+    border-color: white;
+}
+
+/* #titlepucca{
+    display: flex;
+    justify-content: space-between; 
+    align-items: le;
+} */
+
+#titlegaru img{
+    height: 120px;
+}
+
+.paragraph{
+    justify-items: center;
+    padding: 15px;
+}
+
+.titletogheter img{
+    height: 120px;
+
+}

@@ -1,0 +1,59 @@
+body {
+background: #ffcbbf;
+background: linear-gradient(90deg,rgba(255, 203, 191, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(143, 227, 247, 1) 100%);}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+.botao {
+
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-color: blue;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid transparent;
+    transition: 300ms ease-in-out;  
+
+
+
+}
+.botao:hover{
+    border-color: #42424d;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    ;
+}
+
+
+.botao#pucca-btn:hover{
+    border-color: darkred;
+}

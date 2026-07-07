@@ -1,0 +1,63 @@
+body{
+  background: #e1e9f5;
+background: linear-gradient(180deg, rgba(225, 233, 245, 1) 0%, rgb(145, 162, 246) 25%, rgb(167, 255, 157) 51%, rgba(217, 173, 54, 1) 65%, rgb(239, 141, 93) 77%, rgba(242, 231, 208, 1) 100%);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+.botao {
+
+    width: 300px;
+    height: 30px;
+    background-color: aliceblue;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    transition: 300ms ease-in-out;  
+
+
+}
+
+.botao:hover{
+    border-color: #42424d;
+}
+
+hr{
+    color: rgb(255, 255, 255);
+    border-color: white;
+}
+
+#title{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+#title img{
+   width: 220px; 
+}
+
+#docinho{
+    width: 200px;
+}
+
+.paragraph{
+    justify-items: center;
+    padding: 15px;
+}
+
+#florzinha{
+    width: 200px;
+}
