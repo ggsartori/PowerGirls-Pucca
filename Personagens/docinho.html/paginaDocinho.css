@@ -50,6 +50,8 @@ ul {
 .estrela {
   font-size: 60px;
   margin: 10px 0;
+  filter: drop-shadow(0 0 24px rgb(232, 3, 182));
+
 }
  
 .rodape {
